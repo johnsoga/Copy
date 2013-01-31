@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F6A6FA1016BA2B0E00BEE0A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6A6FA0F16BA2B0E00BEE0A1 /* main.c */; };
 		F6A6FA1216BA2B0E00BEE0A1 /* Copy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6A6FA1116BA2B0E00BEE0A1 /* Copy.1 */; };
+		F6A6FA1A16BA2C4E00BEE0A1 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = F6A6FA1916BA2C4E00BEE0A1 /* LinkedList.c */; };
+		F6A6FA1D16BA2D8C00BEE0A1 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = F6A6FA1C16BA2D8C00BEE0A1 /* Stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		F6A6FA0B16BA2B0E00BEE0A1 /* Copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Copy; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A6FA0F16BA2B0E00BEE0A1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F6A6FA1116BA2B0E00BEE0A1 /* Copy.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Copy.1; sourceTree = "<group>"; };
+		F6A6FA1816BA2B6600BEE0A1 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		F6A6FA1916BA2C4E00BEE0A1 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		F6A6FA1B16BA2D2C00BEE0A1 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		F6A6FA1C16BA2D8C00BEE0A1 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				F6A6FA0F16BA2B0E00BEE0A1 /* main.c */,
+				F6A6FA1816BA2B6600BEE0A1 /* LinkedList.h */,
+				F6A6FA1916BA2C4E00BEE0A1 /* LinkedList.c */,
+				F6A6FA1B16BA2D2C00BEE0A1 /* Stack.h */,
+				F6A6FA1C16BA2D8C00BEE0A1 /* Stack.c */,
 				F6A6FA1116BA2B0E00BEE0A1 /* Copy.1 */,
 			);
 			path = Copy;
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A6FA1016BA2B0E00BEE0A1 /* main.c in Sources */,
+				F6A6FA1A16BA2C4E00BEE0A1 /* LinkedList.c in Sources */,
+				F6A6FA1D16BA2D8C00BEE0A1 /* Stack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
