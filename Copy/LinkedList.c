@@ -50,10 +50,10 @@ int insertAt(data_t data, int position, struct List* list) {
 int isEmpty(struct List* list) {
     
     if (list->size == 0) {
-        return 0;
+        return 1;
     }
     
-    return 1;
+    return 0;
 }
 long size(struct List* list) {
     
